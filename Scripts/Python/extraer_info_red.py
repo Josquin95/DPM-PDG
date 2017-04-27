@@ -2,7 +2,7 @@
 """ Autor: Jose Luis Osorio Quintero
     Universidad Icesi 2017
     Proyecto de grado: Sistema open source para la deteccion de ataques maliciosas a paginas web
-    Este script tiene como funcion la abstracion de caracteristicas
+    Este script tiene como funcion la extraccion de caracteristicas
     de un trafico de red obtenido del conjunto de urls.
     Toda las caracteristicas obtenidas para el trafico de red son basadas
     en el articulo Cross-Layer Detection of Malicious Websites"""
