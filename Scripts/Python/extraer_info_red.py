@@ -2,7 +2,7 @@
 """ Autor: Jose Luis Osorio Quintero
     Universidad Icesi 2017
     Proyecto de grado: Sistema open source para la deteccion de ataques maliciosas a paginas web
-    Este script tiene como funcion la extraccion de caracteristicas
+    Este script tiene como funcion la abstracion de caracteristicas
     de un trafico de red obtenido del conjunto de urls.
     Toda las caracteristicas obtenidas para el trafico de red son basadas
     en el articulo Cross-Layer Detection of Malicious Websites"""
@@ -326,7 +326,7 @@ def crear_matriz(ruta_datos, ruta_mtx_trans):
                     print 'Ocurrio un problema en %s --> %s' % (id_url, str(e))
 
 
-for contador in range(3, 5):
-    ruta_dataset = '../../Datasets/Benignos/Procesados/urls_convertidas.txt'
-    ruta_matriz = '../../Datasets/Benignos/matriz_B_red.csv'
-    crear_matriz(ruta_dataset, ruta_matriz)
+
+ruta_dataset = '../../Datasets/Benignos/Procesados/urls_convertidas.txt'
+ruta_matriz = '../../Datasets/Benignos/matriz_B_red.csv'
+crear_matriz(ruta_dataset, ruta_matriz)
